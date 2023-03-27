@@ -1,0 +1,108 @@
+@import url("./global.css");
+@import url("./components/button.css");
+@import url("./components/input.css");
+@import url("./components/header.css");
+@import url("./components/footer.css");
+@import url("./components/nav.css");
+@import url("./home-page.css");
+
+.section-doable {
+  width: 360px;
+  margin: auto;
+}
+
+.tasks-list {
+  width: 360px;
+  margin: auto;
+}
+
+.task {
+  display: flex;
+  gap: 10px;
+  width: 328px;
+  align-items: flex-start;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 12px;
+}
+
+.task-info {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.task-info-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-title {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #374151;
+}
+
+.due-date {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #6b7280;
+}
+
+.exclamation-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.checkbox-input {
+  width: 16px;
+  height: 16px;
+}
+
+.mt-4 {
+  margin-top: 4px;
+}
+
+.mt-12 {
+  margin-top: 12px;
+}
+
+.option-box {
+  height: 42px;
+  width: 326px;
+  border-radius: 0px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  align-items: center;
+  color: #374151;
+  font-size: 14px;
+}
+
+.select-menu {
+  width: 250px;
+  height: 42px;
+  font-size: 16px;
+  line-height: 24px;
+  display: inline-block;
+  border-color: #d1d5db;
+  border-radius: 6px;
+  color: #6b7280;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+}
+
+.completed > p {
+  color: #9ca3af;
+}
+
+.completed {
+  opacity: 0.7;
+}

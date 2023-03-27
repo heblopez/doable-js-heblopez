@@ -1,0 +1,28 @@
+.section {
+  padding: 64px 16px;
+  margin: auto;
+}
+
+.section-sm {
+  padding: 32px;
+}
+
+.container-sm {
+  margin: auto;
+  width: 360px;
+}
+
+.container {
+  max-width: 760px;
+  margin: auto;
+}
+
+.container-lg {
+  max-width: 1024px;
+  margin: auto;
+}
+
+.container-xl {
+  max-width: 1280px;
+  margin: auto;
+}

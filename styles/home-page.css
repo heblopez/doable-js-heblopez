@@ -1,0 +1,26 @@
+.css-link,.link-header {
+  cursor: pointer;
+  color: #EC4899;
+}
+
+.height-header {
+  margin-top: 3em;
+}
+
+.layout-header {
+  padding-bottom: 1em;
+  padding-top: 1em;
+  background-color: #E5E7EB;
+  position: relative;
+}
+
+.img-header {
+  display: flex;
+  justify-content: center;
+}
+
+.logout-header {
+  position: absolute;
+  right: 10px;
+  bottom: 20px;
+}
